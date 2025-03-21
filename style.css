@@ -1,0 +1,55 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color:#fff;
+}
+html, body{
+    height:100%;
+    width:100%;
+}
+body{
+    background-color: #111;
+    display:flex;
+    align-items: center;
+    flex-direction: column;
+}
+.container{
+    height:100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap:10px;
+}
+#para{
+    padding:10px;
+    border-radius:10px;
+    border:none;
+    color:#111;
+}
+.add{
+    display:flex;
+    align-items:center;
+    gap:10px;
+}
+.tasks{
+    margin-top:25px;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    gap:10px;
+    flex-direction: column;
+}
+button{
+    background-color: royalblue;
+    border:none;
+    padding:10px;
+    font-size: 16px;
+    border-radius:10px;
+    cursor:pointer;
+}
+button:hover{
+    box-shadow:0px 0px 10px royalblue;
+}
